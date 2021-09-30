@@ -2,7 +2,7 @@
   border: 2px solid black;
   list-style: none;
   padding: 5px;
-  background-color: cyan;
+  background-color: #97CAEF;
   margin-bottom: 3px;
 }
 
@@ -26,16 +26,21 @@
 }
 
 .unchecked {
-  opacity: 0.2;
+  opacity: 0.3;
+}
+.unchecked p{
+  text-decoration: line-through;
 }
 
-.check {
-}
 .check:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .delButton {
   height: 50%;
   align-self: center;
+}
+
+.delButton:hover {
+  transform: scale(1.1);
 }

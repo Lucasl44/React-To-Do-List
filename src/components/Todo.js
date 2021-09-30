@@ -6,7 +6,7 @@ const Todo = ( {value, handleDelete, handleChecked, checked}) => {
         <div className="boxes">
           <p className="entered" name={value}>{value}</p>
           <div className="buttonWrapper">
-            <input classname="check" type="checkbox" name="" checked={checked} onChange={handleChecked}/>
+            <input className="check" type="checkbox" name="" checked={checked} onChange={handleChecked}/>
             <button className="delButton" onClick={handleDelete}>Del</button>
           </div>  
         </div>
